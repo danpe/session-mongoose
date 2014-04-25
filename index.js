@@ -258,7 +258,7 @@
 
       return SessionStore;
 
-    })(connect.session.Store);
+    })(connect.Store || connect.session.Store);
   };
 
 }).call(this);
